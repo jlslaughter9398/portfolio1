@@ -1,0 +1,16 @@
+/*
+Add miscellaneous styling to forms to make them responsive. 
+*/
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    input[type="text"], input[type="email"], input[type="password"], textarea {
+      width: 100%;
+      margin: 6px 0 10px 0;
+      padding: 8px 4px;
+      font-size: .85 em;
+    }
+    
+    div.form-item {
+      margin: 0 15px;
+      padding: 0 5px;
+    }
